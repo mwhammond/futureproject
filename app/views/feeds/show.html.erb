@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Link:</b>
+  <%= @feed.link %>
+</p>
+
+<p>
+  <b>Lastchecked:</b>
+  <%= @feed.lastChecked %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @feed.rating %>
+</p>
+
+
+<%= link_to 'Edit', edit_feed_path(@feed) %> |
+<%= link_to 'Back', feeds_path %>

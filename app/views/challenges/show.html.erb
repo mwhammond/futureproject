@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Short:</b>
+  <%= @challenge.short %>
+</p>
+
+<p>
+  <b>Long:</b>
+  <%= @challenge.long %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @challenge.link %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= @challenge.image %>
+</p>
+
+<p>
+  <b>Industry:</b>
+  <%= @challenge.industry %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @challenge.score %>
+</p>
+
+<p>
+  <b>Impact:</b>
+  <%= @challenge.impact %>
+</p>
+
+<p>
+  <b>Feedid:</b>
+  <%= @challenge.feedid %>
+</p>
+
+
+<%= link_to 'Edit', edit_challenge_path(@challenge) %> |
+<%= link_to 'Back', challenges_path %>

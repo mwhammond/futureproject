@@ -1,4 +1,13 @@
 Futureproject::Application.routes.draw do
+  resources :industries
+
+
+  resources :feeds
+
+
+  resources :challenges
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
